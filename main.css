@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+h1 {
+    color: #333;
+}
+.task-container {
+    max-width: 400px;
+    margin: auto;
+}
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+li p::selection {
+    text-decoration: line-through;
+    cursor:pointer
+}
